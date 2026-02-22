@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Thow Kwang Pottery Jungle</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&amp;family=Lato:wght@300;400;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/>
+<script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        primary: "#C05640", // Terracotta
+                        "primary-dark": "#9A3E2D",
+                        "background-light": "#FDFBF7", // Cream
+                        "background-dark": "#1F1D1B", // Dark warm grey
+                        "surface-light": "#F4EFE6",
+                        "surface-dark": "#2D2A28",
+                        "text-light": "#4A403A",
+                        "text-dark": "#E5DCD5",
+                        "accent-light": "#D4C5B0",
+                        "accent-dark": "#5C544D",
+                    },
+                    fontFamily: {
+                        display: ["Playfair Display", "serif"],
+                        body: ["Lato", "sans-serif"],
+                    },
+                    borderRadius: {
+                        DEFAULT: "12px",
+                        'xl': "1rem",
+                        '2xl': "1.5rem",
+                    },
+                },
+            },
+        };
+    </script>
+<style>
+        .no-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .no-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background-light dark:bg-background-dark text-text-light dark:text-text-dark font-body antialiased min-h-screen flex flex-col transition-colors duration-300">
+<header class="sticky top-0 z-50 bg-background-light/95 dark:bg-background-dark/95 backdrop-blur-sm border-b border-accent-light/30 dark:border-accent-dark/30 shadow-sm">
+<div class="px-6 py-4 flex items-center justify-between">
+<div class="flex items-center space-x-3">
+<div class="w-10 h-10 rounded-full bg-primary flex items-center justify-center text-white shadow-md">
+<span class="material-symbols-outlined text-2xl">local_fire_department</span>
+</div>
+<div>
+<h1 class="font-display font-bold text-lg leading-tight text-primary">Thow Kwang</h1>
+<p class="text-xs uppercase tracking-widest opacity-70">Pottery Jungle</p>
+</div>
+</div>
+<button class="p-2 rounded-full hover:bg-surface-light dark:hover:bg-surface-dark transition-colors">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div>
+</header>
+<main class="flex-grow overflow-y-auto no-scrollbar pb-24">
+<section class="relative px-6 py-8">
+<div class="text-center mb-8">
+<h2 class="font-display text-3xl font-bold mb-2 text-primary dark:text-white leading-tight">Singapore's Oldest Dragon Kiln</h2>
+<div class="h-1 w-24 bg-primary mx-auto rounded-full mb-3 opacity-60"></div>
+<p class="text-sm uppercase tracking-widest text-text-light/80 dark:text-text-dark/80 font-semibold">Preserving the Fire Since 1965</p>
+</div>
+<div class="bg-surface-light dark:bg-surface-dark rounded-2xl p-6 shadow-lg border border-white/50 dark:border-white/5 relative overflow-hidden">
+<div class="absolute -top-10 -right-10 w-32 h-32 bg-primary/10 rounded-full blur-2xl"></div>
+<div class="absolute -bottom-10 -left-10 w-32 h-32 bg-primary/10 rounded-full blur-2xl"></div>
+<div class="relative z-10 text-center">
+<p class="font-display text-lg italic text-text-light dark:text-text-dark mb-6">"Watch the flames breathe life into clay"</p>
+<div class="flex justify-center items-center space-x-4 mb-4">
+<div class="flex flex-col">
+<span class="font-display text-4xl font-bold text-primary">14</span>
+<span class="text-xs uppercase tracking-wide opacity-60">Days</span>
+</div>
+<span class="text-2xl text-accent-light dark:text-accent-dark font-display">:</span>
+<div class="flex flex-col">
+<span class="font-display text-4xl font-bold text-primary">08</span>
+<span class="text-xs uppercase tracking-wide opacity-60">Hours</span>
+</div>
+<span class="text-2xl text-accent-light dark:text-accent-dark font-display">:</span>
+<div class="flex flex-col">
+<span class="font-display text-4xl font-bold text-primary">42</span>
+<span class="text-xs uppercase tracking-wide opacity-60">Mins</span>
+</div>
+<span class="text-2xl text-accent-light dark:text-accent-dark font-display">:</span>
+<div class="flex flex-col">
+<span class="font-display text-4xl font-bold text-primary">15</span>
+<span class="text-xs uppercase tracking-wide opacity-60">Secs</span>
+</div>
+</div>
+<p class="text-sm font-medium opacity-70">Until the next Dragon Kiln Firing</p>
+</div>
+</div>
+</section>
+<section class="px-6 mb-10">
+<div class="bg-white dark:bg-neutral-800 rounded-xl p-4 flex items-center justify-between shadow-sm border border-neutral-100 dark:border-neutral-700">
+<div class="flex items-center space-x-3">
+<span class="material-symbols-outlined text-primary">notifications_active</span>
+<div>
+<p class="font-bold text-sm">Notify Me</p>
+<p class="text-xs opacity-60">Get alerts for firing dates</p>
+</div>
+</div>
+<label class="relative inline-flex items-center cursor-pointer">
+<input checked="" class="sr-only peer" type="checkbox" value=""/>
+<div class="w-11 h-6 bg-gray-200 peer-focus:outline-none rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-primary"></div>
+</label>
+</div>
+</section>
+<section class="px-6 mb-8">
+<div class="flex items-center justify-between mb-4">
+<h3 class="font-display text-2xl font-bold text-text-light dark:text-text-dark">Kiln Secrets</h3>
+<a class="text-primary text-sm font-bold flex items-center hover:underline" href="#">
+                    View All <span class="material-symbols-outlined text-base ml-1">arrow_forward</span>
+</a>
+</div>
+<div class="flex space-x-4 overflow-x-auto no-scrollbar pb-4 snap-x snap-mandatory">
+<div class="snap-center shrink-0 w-64 h-80 rounded-2xl overflow-hidden relative group shadow-md">
+<img alt="Detail of dragon kiln bricks" class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCebenyBXdlrqfADREG4-AQDlGsXoNqRTdieMS8UkHFG9hoIX6zZg3KNxiD4U-CuP3G5Ja8X3KP0ZcDMLKEcGJml2YInx8s5Y29dbnyegPZ8ArDnEAobDcndcvI8VKVdyi0HKnfNNPxQOo3pxvqfe_fz4PNtHGHg_sqcL_M8wp03cUEW9LI3OdOu9lP2NmFRlVJGFctcrh95NeUQl58Qz948317Cz_aGlhHWR_2zYgKafew_Pjc3VxasbkC_wmLGXuJxhV2r9n3V8-d"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
+<div class="absolute bottom-0 left-0 p-5">
+<span class="text-xs font-bold text-primary uppercase tracking-widest bg-white/90 px-2 py-1 rounded mb-2 inline-block">Architecture</span>
+<h4 class="font-display text-xl text-white font-bold leading-tight">The Anatomy of the Dragon</h4>
+</div>
+</div>
+<div class="snap-center shrink-0 w-64 h-80 rounded-2xl overflow-hidden relative group shadow-md">
+<img alt="Stacked wood for firing" class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBWJI_1QIA1CxLKancR3dYRKcDeBHB4Rw-JWrglp8yd5s6mCG3vTDhZ93yHeJJKP15ORXZax71rdKCUbw7zgw0uavCmlAykBx0pqcQEqWnru8snportXso7JSmGnq_Y94gvMPcy37GP3tJWmGDre-suZQtA1Ghqs2MrHQCHW8TfvPB5CSiG_7ZIQt0HU30DLSCUimBwIeFSf6wYzrvZ4dzbCnp6EYx_7GXjVsuBd2iT_Afh4Dpk4ZnxbiLF-Q4Ih-6ivz3UQucOJDGY"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
+<div class="absolute bottom-0 left-0 p-5">
+<span class="text-xs font-bold text-primary uppercase tracking-widest bg-white/90 px-2 py-1 rounded mb-2 inline-block">Process</span>
+<h4 class="font-display text-xl text-white font-bold leading-tight">The Power of Wood</h4>
+</div>
+</div>
+<div class="snap-center shrink-0 w-64 h-80 rounded-2xl overflow-hidden relative group shadow-md">
+<img alt="Potter working on wheel" class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCllUwT30pseesbaVUNcOMJ18kfx5bsrs1RwM9E4pZOLypioTMSLYt5MlAcWqI0OVeDMSYZG5WeL0zJqow-jC2tGdfTtnP-IjZy6zuVlL7pLEkXNHpTHCcM0uNZXOTOFQRx6jv3CfJEalpcTpSSf0Ppciush5Znv5m3LSoYx4_ahA_WVNsYZIIwaZInTSR9UW1gjcqYQujvX7KP6AvLqkPffeTZHjGyejhNrqSyn-MpJEYNNIcnYBfFLZsIpf0zVofzn0HLzBXTZ8cx"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
+<div class="absolute bottom-0 left-0 p-5">
+<span class="text-xs font-bold text-primary uppercase tracking-widest bg-white/90 px-2 py-1 rounded mb-2 inline-block">History</span>
+<h4 class="font-display text-xl text-white font-bold leading-tight">The Tan Family Legacy</h4>
+</div>
+</div>
+</div>
+</section>
+<section class="px-6 mb-8">
+<div class="bg-surface-light dark:bg-surface-dark rounded-xl p-6 border-l-4 border-primary shadow-sm">
+<span class="material-symbols-outlined text-primary mb-2 text-3xl">format_quote</span>
+<p class="font-display italic text-lg leading-relaxed mb-4">
+                    Experience Singapore's oldest surviving dragon kiln, conducting educational tours and workshops since 2001.
+                </p>
+<div class="flex items-center space-x-3">
+<div class="h-px w-8 bg-current opacity-30"></div>
+<p class="text-xs font-bold uppercase tracking-widest opacity-60">Tan Family</p>
+</div>
+</div>
+</section>
+</main>
+<div class="fixed bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-background-light via-background-light to-transparent dark:from-background-dark dark:via-background-dark pointer-events-none z-40">
+<button class="pointer-events-auto w-full bg-primary hover:bg-primary-dark text-white font-bold py-4 rounded-xl shadow-xl shadow-primary/30 transform transition-all active:scale-[0.98] flex items-center justify-center space-x-2 group">
+<span class="material-symbols-outlined group-hover:animate-bounce">calendar_month</span>
+<span class="text-lg tracking-wide">Book a Workshop</span>
+</button>
+</div>
+
+</body></html>

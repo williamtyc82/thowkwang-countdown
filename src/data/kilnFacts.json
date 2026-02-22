@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "title": "The Sleeping Dragon",
+        "description": "Built in 1940, this 27-meter-long kiln is the oldest surviving \"Dragon Kiln\" in Singapore. Its long, sloped body acts like a chimney, creating the natural draft needed to reach extreme temperatures.",
+        "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuCebenyBXdlrqfADREG4-AQDlGsXoNqRTdieMS8UkHFG9hoIX6zZg3KNxiD4U-CuP3G5Ja8X3KP0ZcDMLKEcGJml2YInx8s5Y29dbnyegPZ8ArDnEAobDcndcvI8VKVdyi0HKnfNNPxQOo3pxvqfe_fz4PNtHGHg_sqcL_M8wp03cUEW9LI3OdOu9lP2NmFRlVJGFctcrh95NeUQl58Qz948317Cz_aGlhHWR_2zYgKafew_Pjc3VxasbkC_wmLGXuJxhV2r9n3V8-d"
+    },
+    {
+        "id": 2,
+        "title": "A 1260°C Fire",
+        "description": "To turn raw clay into durable stoneware, the kiln must reach a staggering 1260°C. Maintaining this heat requires a team of potters to feed the \"dragon\" with wood every few minutes for over 24 hours straight.",
+        "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuBWJI_1QIA1CxLKancR3dYRKcDeBHB4Rw-JWrglp8yd5s6mCG3vTDhZ93yHeJJKP15ORXZax71rdKCUbw7zgw0uavCmlAykBx0pqcQEqWnru8snportXso7JSmGnq_Y94gvMPcy37GP3tJWmGDre-suZQtA1Ghqs2MrHQCHW8TfvPB5CSiG_7ZIQt0HU30DLSCUimBwIeFSf6wYzrvZ4dzbCnp6EYx_7GXjVsuBd2iT_Afh4Dpk4ZnxbiLF-Q4Ih-6ivz3UQucOJDGY"
+    },
+    {
+        "id": 3,
+        "title": "The \"Ash Glaze\" Magic",
+        "description": "Unlike electric kilns, wood-firing creates a natural \"fly-ash\" glaze. The wood ash settles on the pottery during the firing and melts, creating unique textures and colors that can never be replicated.",
+        "imageUrl": "https://images.unsplash.com/photo-1610701596007-11502861dcfa?q=80&w=800&auto=format&fit=crop"
+    },
+    {
+        "id": 4,
+        "title": "Five Generations of Fire",
+        "description": "Owned by the Tan family since 1965, the kiln represents five generations of pottery heritage. It’s not just a tool; it’s a living museum of Singapore’s industrial and cultural history.",
+        "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuCllUwT30pseesbaVUNcOMJ18kfx5bsrs1RwM9E4pZOLypioTMSLYt5MlAcWqI0OVeDMSYZG5WeL0zJqow-jC2tGdfTtnP-IjZy6zuVlL7pLEkXNHpTHCcM0uNZXOTOFQRx6jv3CfJEalpcTpSSf0Ppciush5Znv5m3LSoYx4_ahA_WVNsYZIIwaZInTSR9UW1gjcqYQujvX7KP6AvLqkPffeTZHjGyejhNrqSyn-MpJEYNNIcnYBfFLZsIpf0zVofzn0HLzBXTZ8cx"
+    },
+    {
+        "id": 5,
+        "title": "The Cooling Breath",
+        "description": "After the firing is complete, the dragon needs to \"rest.\" It takes about 2 to 3 days for the kiln to cool down before the potters can step inside to reveal the fired treasures.",
+        "imageUrl": "https://images.unsplash.com/photo-1578500494198-246f612d3b3d?q=80&w=800&auto=format&fit=crop"
+    }
+]
